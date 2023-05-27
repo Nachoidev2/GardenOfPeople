@@ -573,24 +573,52 @@ ul.simplefilter {
 	}
 }
 .portfolio figure {
-	margin: 0;
-	padding: 0;
-	position: relative;
-	display: block;
-	cursor: pointer;
-	overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    z-index: 1;
 }
+
+.portfolio figure:hover {
+    z-index: 2;
+}
+
+.portfolio figure img {
+    transition: transform 0.5s ease;
+}
+
+.portfolio figure:hover img {
+    transform: scale(1.05);
+}
+
+.portfolio figcaption {
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: alpha(opacity=0);
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    transition: all .5s ease;
+    transition-delay: .5s;
+    transform: translateY(100%);
+    z-index: 3;
+}
+
 .portfolio figure:hover figcaption {
-	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-	filter: alpha(opacity=100);
-	opacity: 1;
-	-webkit-transform: rotate(0);
-	-moz-transform: rotate(0);
-	-o-transform: rotate(0);
-	-ms-transform: rotate(0);
-	transform: rotate(0);
-	top: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transform: translateY(0);
+    top: 0;
 }
+
 .portfolio figcaption {
 	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 	filter: alpha(opacity=0);
