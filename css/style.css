@@ -1178,7 +1178,7 @@ ul.simplefilter {
 }
 .contact-w3lsright {
 	padding: 6em 6em;
-    background: #ececec;
+    background: #292929;
 }
 .contact-w3lsright h6 {
 	line-height: 1.5em;
@@ -1314,6 +1314,7 @@ ul.simplefilter {
 /*-- social-icons --*/
 .agileinfo-social-grids{
     margin:2em 0 0 0;
+	font-size: 32px;
 }
 .agileinfo-social-grids ul{
 	padding:0;
