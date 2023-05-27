@@ -20,7 +20,7 @@ body{
 	background: url(../images/4644be64747245.5adce2a33cb5b.jpg) no-repeat 0px 0px;
     background-size: cover;
 	background-position: center center;
-	height: 760px;
+	height: 880px;
 }
 .agileinfo-dot{
     background: url(../images/dott.png)repeat 0px 0px;
@@ -30,7 +30,7 @@ body{
     -o-background-size: 2px;
     -ms-background-size: 2px;
     padding: 3em 0;
-	height: 760px;
+	height: 880px;
 }
 .jarallax {
     position: relative;
