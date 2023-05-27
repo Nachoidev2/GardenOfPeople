@@ -20,7 +20,7 @@ body{
 	background: url(../images/4644be64747245.5adce2a33cb5b.jpg) no-repeat 0px 0px;
     background-size: cover;
 	background-position: center center;
-	height: 900px;
+	height: 920px;
 }
 .agileinfo-dot{
     background: url(../images/dott.png)repeat 0px 0px;
@@ -30,7 +30,7 @@ body{
     -o-background-size: 2px;
     -ms-background-size: 2px;
     padding: 3em 0;
-	height: 900px;
+	height: 920px;
 }
 .jarallax {
     position: relative;
@@ -348,7 +348,7 @@ body{
     padding: 4em 0;
 }
 .welcome{
-    border-bottom: 1px dashed #ccc;
+    /*--border-bottom: 1px dashed #ccc;--*/
     padding-bottom: 1em;
 	text-align:center;
 }
@@ -759,6 +759,7 @@ ul.simplefilter {
 .testimonial2{
 	background:url(../images/be703764755115.5add3336eebe0.jpg) no-repeat 0px 0px;
 	background-color: #00000036;
+	height: 800px;
 }
 .testimonial2-dot{
     background: url(../images/dott.png)repeat 0px 0px;
