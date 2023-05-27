@@ -1802,11 +1802,28 @@ ul.simplefilter {
 /*-- //responsive --*/
 
 @keyframes fadeIn {
-    0% { opacity: 0; transform: translateY(20px); }
-    100% { opacity: 1; transform: translateY(0); }
+	0% { opacity: 0; transform: translateY(20px); }
+	100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes loop-animation {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
 }
 
 .animated-text {
-    animation: fadeIn 1s ease-in-out;
-    animation-delay: 0.5s; /* Retraso de 0.5 segundos */
+	animation: fadeIn 1s ease-in-out;
+	animation-delay: 0.5s; /* Delay of 0.5 seconds */
 }
+
+.loop-animation {
+	animation: loop-animation 3s ease infinite;
+}
+

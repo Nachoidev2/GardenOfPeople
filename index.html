@@ -39,7 +39,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	});
 </script> 
-
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <![endif]-->
@@ -106,6 +105,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 			</div>
+			<script>
+				var animatedText = document.querySelector('.animated-text');
+		
+				animatedText.addEventListener('animationend', function() {
+					animatedText.classList.add('loop-animation');
+				});
+			</script>			
 			
 								<div class="clearfix"> </div>
 								<script src="js/responsiveslides.min.js"></script>
